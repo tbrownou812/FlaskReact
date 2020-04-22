@@ -1,34 +1,26 @@
 import os
 import logging.config
 
-from flask import Flask
-from web.views import web_bp
+# from flask import Flask
+from web import app
 
 
-app = Flask(__name__)
+# app = Flask(__name__, root_path='web/')
 logging_conf_path = os.path.normpath(os.path.join(os.path.dirname(__file__), './logging.conf'))
 logging.config.fileConfig(logging_conf_path)
 log = logging.getLogger(__name__)
 
 
-def configure():
-    app.config['SERVER_NAME'] = 'localhost:8888'
-    app.config['SWAGGER_UI_DOC_EXPANSION'] = 'list'
-    app.config['RESTPLUS_VALIDATE'] = True
-    app.config['RESTPLUS_MASK_SWAGGER'] = False
-    app.config['ERROR_404_HELP'] = False
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config['SQLALCHEMY_BINDS'] = {
-        'rest_api_demo': 'sqlite:///db.sqlite'
-    }
+def configure(flask_app):
+    flask_app.config['SERVER_NAME'] = 'localhost:8888'
 
-    app.register_blueprint(web_bp)
+    # flask_app.register_blueprint(web_bp)
 
 
 def run_server():
-    configure()
+    configure(app)
 
-    log.info('>>>>> Starting development server at http://{}/web/ <<<<<'.format(app.config['SERVER_NAME']))
+    log.info('>>>>> Starting development server at http://{}/ <<<<<'.format(app.config['SERVER_NAME']))
     app.run(debug=True)
 
 
