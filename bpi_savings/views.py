@@ -1,9 +1,6 @@
-from flask import Blueprint
 from datetime import datetime
 from flask import render_template
-# from web import app
-
-web_bp = Blueprint('web', __name__, template_folder='templates', static_folder='static')
+from bpi_savings import blueprint
 
 
 # @web_bp.route('/')
@@ -11,8 +8,8 @@ web_bp = Blueprint('web', __name__, template_folder='templates', static_folder='
 #     return 'Hello World!'
 
 
-@web_bp.route('/')
-@web_bp.route('/home')
+@blueprint.route('/')
+@blueprint.route('/home')
 def home():
     """Renders the home page."""
     return render_template(
@@ -22,7 +19,7 @@ def home():
     )
 
 
-@web_bp.route('/contact')
+@blueprint.route('/contact')
 def contact():
     """Renders the contact page."""
     return render_template(
@@ -33,7 +30,7 @@ def contact():
     )
 
 
-@web_bp.route('/about')
+@blueprint.route('/about')
 def about():
     """Renders the about page."""
     return render_template(

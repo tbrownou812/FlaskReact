@@ -20,21 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a78899-1140-467b-9ae9-adce01b7df7c" name="Default Changelist" comment="Brought to personal workstation">
+      <change afterPath="$PROJECT_DIR$/bpi_savings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpi_savings/api/restplus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpi_savings/api/test/endpoints/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpi_savings/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpi_savings/static/content/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/content/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/content/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/content/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/_references.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/_references.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery-1.10.2.intellisense.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.intellisense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery-1.10.2.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery.validate-vsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate-vsdoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/modernizr-2.6.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/modernizr-2.6.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/respond.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/respond.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/scripts/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/static/scripts/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bpi_savings/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1atxXFqvboT0S81U2lfRUi9YM7F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,8 +86,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BPISavings/api" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\FlaskReact\BPISavings\api" />
+      <recent name="D:\Projects\FlaskReact\BPISavings\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\FlaskReact\BPISavings" />
+      <recent name="D:\Projects\FlaskReact" />
+      <recent name="D:\Projects\FlaskReact\web" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="FlaskReact" type="PythonConfigurationType" factoryName="Python">
@@ -57,7 +109,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Program Files (x86)\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -82,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587568728866</updated>
-      <workItem from="1587568731051" duration="2485000" />
+      <workItem from="1587568731051" duration="10042000" />
     </task>
     <task id="LOCAL-00001" summary="Brought to personal workstation">
       <created>1587569139777</created>
@@ -113,50 +165,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="Brought to personal workstation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587571093545">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587589091735">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571093545" />
-    <state width="661" height="466" key="DebuggerActiveHint" timestamp="1587570769373">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587589091735" />
+    <state width="661" height="466" key="DebuggerActiveHint" timestamp="1587590514761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="661" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587570769373" />
+    <state width="661" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590514761" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1587571091331">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571091331" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1587571096244">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096244" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1587571096243">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096243" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1587571096243">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096243" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1587571096243">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096243" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1587571096192">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096192" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1587571096192">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096192" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1587571096192">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096192" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1587571096192">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1587590759059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587571096192" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590759059" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1587568772451">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -167,6 +219,6 @@
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587569147239" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskReact$FlaskReact.coverage" NAME="FlaskReact Coverage Results" MODIFIED="1587571225336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/FlaskReact$FlaskReact.coverage" NAME="FlaskReact Coverage Results" MODIFIED="1587590663642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
