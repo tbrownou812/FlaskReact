@@ -4,7 +4,7 @@
 
 from datetime import datetime
 
-from rest_api_demo.database import db
+from web_root.database import db
 
 
 class Post(db.Model):

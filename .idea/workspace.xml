@@ -20,46 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a78899-1140-467b-9ae9-adce01b7df7c" name="Default Changelist" comment="Brought to personal workstation">
-      <change afterPath="$PROJECT_DIR$/web_root/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_root/database/db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_root/database/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlaskReact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlaskReact.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_root/api/test/business.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_root/api/test/endpoints/categories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_root/api/test/endpoints/posts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_root/api/test/parsers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_root/api/test/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/api/restplus.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/api/restplus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/api/test/endpoints/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/api/test/endpoints/simple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/content/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/content/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/content/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/content/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/content/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/_references.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/_references.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.intellisense.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery-1.10.2.intellisense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery-1.10.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery-1.10.2.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery-1.10.2.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate-vsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery.validate-vsdoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/modernizr-2.6.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/modernizr-2.6.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/respond.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/respond.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/static/scripts/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/static/scripts/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpi_savings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/logging.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/api/test/endpoints/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/api/test/endpoints/simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_root/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_root/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,15 +62,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_root" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_root/api/test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\FlaskReact\web_root\api\test" />
+      <recent name="D:\Projects\FlaskReact\web_root\api\test\endpoints" />
       <recent name="D:\Projects\FlaskReact\web_root\database" />
       <recent name="D:\Projects\FlaskReact\web_root" />
       <recent name="D:\Projects\FlaskReact\BPISavings\api" />
-      <recent name="D:\Projects\FlaskReact\BPISavings\database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\FlaskReact\web_root" />
@@ -116,12 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_root" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Projects\FlaskReact\web_root\app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_root/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +116,7 @@
       <updated>1587568728866</updated>
       <workItem from="1587568731051" duration="10042000" />
       <workItem from="1587651592565" duration="1683000" />
-      <workItem from="1587654410096" duration="1209000" />
+      <workItem from="1587654410096" duration="9427000" />
     </task>
     <task id="LOCAL-00001" summary="Brought to personal workstation">
       <created>1587569139777</created>
@@ -175,64 +148,72 @@
     <option name="LAST_COMMIT_MESSAGE" value="Brought to personal workstation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587655227470">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587669040805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655227470" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669040805" />
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587655380141">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655380141" />
-    <state width="661" height="466" key="DebuggerActiveHint" timestamp="1587590514761">
+    <state width="661" height="466" key="DebuggerActiveHint" timestamp="1587668501226">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="661" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587590514761" />
+    <state width="661" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587668501226" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1587653131455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587653131455" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1587655597387">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1587669544411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655597387" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1587655597387">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544411" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1587669544411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655597387" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1587655597387">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544411" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1587669544411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655597387" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1587655597387">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544411" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1587669544411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655597387" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1587655598820">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544411" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1587669544362">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655598820" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1587655598820">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544362" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1587669544362">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655598820" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1587655598820">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544362" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1587669544362">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655598820" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1587655598820">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544362" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1587669544362">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587655598820" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1587654436332">
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669544362" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1587664177793">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587654436332" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587664177793" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1587569147239">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587569147239" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1587668660267">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587668660267" />
+    <state x="514" y="253" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587669539812">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="514" y="253" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1587669539812" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskReact$FlaskReact.coverage" NAME="FlaskReact Coverage Results" MODIFIED="1587655621701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_root" />
+    <SUITE FILE_PATH="coverage/FlaskReact$FlaskReact.coverage" NAME="FlaskReact Coverage Results" MODIFIED="1587669864802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
