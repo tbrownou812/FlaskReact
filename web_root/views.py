@@ -1,6 +1,6 @@
 from datetime import datetime
 from flask import render_template
-from bpi_savings import blueprint
+from web_root import blueprint
 
 
 # @web_bp.route('/')
