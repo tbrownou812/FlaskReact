@@ -1,3 +1,5 @@
 flask
 flask-restplus
 Flask-SQLAlchemy
+psycopg2
+

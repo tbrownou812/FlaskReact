@@ -4,7 +4,7 @@
 
 from datetime import datetime
 
-from web_root.database import db
+from database import db
 
 
 class Post(db.Model):

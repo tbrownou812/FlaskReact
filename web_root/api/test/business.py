@@ -1,5 +1,5 @@
-from web_root.database import db
-from web_root.database.models import Post, Category
+from database import db
+from database.models import Post, Category
 
 
 def create_blog_post(data):

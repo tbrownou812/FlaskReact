@@ -1,8 +1,5 @@
-import logging
-
-from flask import request
 from flask_restplus import Resource
-from web_root.api.restplus import api
+from web_root.api import api
 
 ns = api.namespace('api/simple', description='Test the API Framework')
 

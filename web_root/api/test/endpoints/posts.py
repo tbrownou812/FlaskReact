@@ -5,8 +5,8 @@ from flask_restplus import Resource
 from web_root.api.test.business import create_blog_post, update_post, delete_post
 from web_root.api.test.serializers import blog_post, page_of_blog_posts
 from web_root.api.test.parsers import pagination_arguments
-from web_root.api.restplus import api
-from web_root.database.models import Post
+from web_root.api import api
+from database.models import Post
 
 log = logging.getLogger(__name__)
 

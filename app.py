@@ -1,17 +1,15 @@
 import os
 import logging.config
 
-from flask import Flask, Blueprint
-from web_root import settings
+from flask import Flask
+import settings
 from web_root.views import web_bp as web_bp
-from web_root import api_bp as api_bp
+from web_root.api import api_bp as api_bp
 
-from web_root.database import db
-
-from web_root.api.restplus import api
+from database import db
 
 
-app = Flask(__name__)
+app = Flask(__name__, root_path=os.path.normpath(os.path.join(os.path.dirname(__file__), './web_root')))
 logging_conf_path = os.path.normpath(os.path.join(os.path.dirname(__file__), './logging.conf'))
 logging.config.fileConfig(logging_conf_path)
 log = logging.getLogger(__name__)
