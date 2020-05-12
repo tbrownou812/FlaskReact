@@ -3,7 +3,6 @@ import logging.config
 
 from flask import Flask
 import settings
-from web_root.views import web_bp as web_bp
 from web_root.api import api_bp as api_bp
 
 from database import db
@@ -24,7 +23,6 @@ def configure(flask_app):
     flask_app.config['RESTPLUS_MASK_SWAGGER'] = settings.RESTPLUS_MASK_SWAGGER
     flask_app.config['ERROR_404_HELP'] = settings.RESTPLUS_ERROR_404_HELP
 
-    flask_app.register_blueprint(web_bp)
     flask_app.register_blueprint(api_bp)
 
     db.init_app(flask_app)
